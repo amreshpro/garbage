@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #13181c;
+    color: #f0f0f0;
+}
+
+
+.font-roboto{
+    font-family: 'Roboto',sans-serif;
+}
+
+.font-lobster{
+    font-family: 'Lobster',cursive,sans-serif;
+}
+
+
+.font-lilita{
+    font-family: 'Lilita One',cursive,sans-serif;
+}
+
+
+.font-poppins{
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.font-sriracha{
+    font-family: 'Sriracha',cursive,sans-serif;
+}
+
+.bg-card{
+    background-color: #2A2E35;
+}
