@@ -64,3 +64,24 @@ overflow-y: hidden;
     pointer-events: none;
     
 }
+
+.test-1>p::before{
+    content: "Amresh";
+background-color: aquamarine;
+color: aliceblue;
+}
+
+.test-1>p::after{
+    content: "Maurya";
+background-color: aquamarine;
+color: aliceblue;
+}
+
+.test-1>p::first-letter{
+    font-size: 35px;
+    color: #f80000;
+}
+
+.test-1>p::first-line{
+    font-size: 45px;
+}
